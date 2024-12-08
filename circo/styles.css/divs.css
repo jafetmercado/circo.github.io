@@ -1,0 +1,51 @@
+body {
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   /* background-color: black; */
+}
+
+.container {
+    width: 100%;
+}
+
+
+.contenedor h1 {
+    color: rgb(222, 5, 5);
+    font-size: 76px;
+}
+
+
+.titulo {
+    font-size: 66px;
+    color: red;
+}
+
+.artistas {
+    display: flex;
+    justify-content: space-between; /* Espacia las imágenes uniformemente */
+    width: 100%;
+    
+}
+.nombres {
+    display: flex;
+    justify-content: space-between; /* Distribuye los encabezados uniformemente */
+    width: 100%;
+    padding: 0 5px; /* Añade padding para un poco de espacio en los lados */
+}
+
+.a {
+    margin-top: 100px;
+    flex: 1; /* Distribuye el ancho equitativamente */
+    text-align: center;
+    margin:  9px; /* Añade espacio entre los encabezados */
+    padding: 10px; /* Añade padding interno a cada h2 */
+    border-radius: 5px; /* Bordes redondeados */
+
+ 
+    
+
+
+}

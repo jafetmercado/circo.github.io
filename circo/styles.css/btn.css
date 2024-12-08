@@ -1,0 +1,50 @@
+.btn {
+    padding: 20px;
+    background-color: rgb(82, 82, 144);
+    border-radius: 25px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.btn-redes {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    background-color: #3b5998;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .btn-redes:hover {
+    background-color: #2d4373;
+    transform: scale(1.05);
+  }
+  .btn-redes-instagram {
+    background-color: #e1306c;
+  }
+  .btn-redes-instagram:hover {
+    background-color: #c13584;
+  }
+
+
+
+  .btn-redes-i {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    background-color: #d91bb0;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .btn-redes-i:hover{
+    background-color: #7c0876;
+    transform: scale(1.05);
+
+  }

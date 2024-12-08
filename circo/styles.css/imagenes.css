@@ -1,0 +1,49 @@
+.imagen {
+    transition: transform 0.3s ease-in-out;
+    width: 17%; /* Ajusta este valor según el número de imágenes para que ocupen el 100% en conjunto */
+    height: 400px; /* Mantiene la proporción de la imagen */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.img-logo {
+    width: 100%; /* La imagen ocupará todo el ancho de la pantalla */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block; /* Quita el espacio en blanco bajo la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+
+
+
+}
+
+
+
+
+.imagen:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+} */
+
+.video-container {
+    width: 100%;
+    /* max-width: 600px; */
+    max-width: 100vw;
+}
+
+.video-animado {
+    width: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.video-animado:hover {
+    transform: scale(1.05); /* Escala el video al pasar el mouse */
+    opacity: 0.8; /* Cambia la opacidad al pasar el mouse */
+}

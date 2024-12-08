@@ -1,0 +1,16 @@
+.h2-row {
+    display: flex;
+    justify-content: space-between; /* Distribuye los encabezados uniformemente */
+    width: 100%;
+    padding: 0 20px; /* Añade padding para un poco de espacio en los lados */
+}
+
+.h2-row h2 {
+    flex: 1; /* Distribuye el ancho equitativamente */
+    text-align: center;
+    margin: 0 10px; /* Añade espacio entre los encabezados */
+    padding: 10px; /* Añade padding interno a cada h2 */
+    background-color: #dcdcdc; /* Color de fondo para visualización */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
